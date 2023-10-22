@@ -8,7 +8,7 @@ const Counter = () => {
   return (
     <div className="App">
 
-      <div className="container1"> <input type="number" {count} /></div>
+      <div className="container1"> <input type="number"  />{count}</div>
       <div className="container2"><button onClick={increment}>+</button>
       <button onClick={decrement}>-</button>
       <button onClick={reset}>C</button> </div>
