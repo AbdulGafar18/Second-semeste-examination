@@ -8,8 +8,7 @@ const Home = () => {
       <h1 className="homePage">Welcome to My App Homepage</h1>
 
             <div className="toCounter">
-              <p> <Link to="/counter">Below is the link to my Counter Page
-                  </Link> 
+              <p> This is the link to my <Link to="/counter"> Counter Page</Link> 
               </p>
             </div>
             <div className="toPage"><p><Link to="/404">
