@@ -30,8 +30,9 @@ body {
   font-size: 3.2em;
   line-height: 1.1;
   border-radius: 10px;
+  font-weight: 700;
   border: 1px solid #0000;
-  background-color: #82086c;
+  background-color: #f8ddf3;
   max-width: 300px;
   text-overflow: hidden;
 }
@@ -44,7 +45,7 @@ margin: 0;}
 
 
 .home {
-  background-color:#5e6b62;
+  background-color:#a5b3a9;
   border-radius: 10px;
   height: 20rem;
   width: 25rem;
@@ -114,8 +115,6 @@ h1 {
 .linkHome {
   text-decoration: none;
   font-size: 20px;
-  margin-top: 10px;
-  text-align: center;
 }
 
 input{ border-radius: 8px;
@@ -151,11 +150,4 @@ button {   background-color: #f9f9f9;
 
 .counter button:active {
   background-color:lightskyblue;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
 }
