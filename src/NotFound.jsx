@@ -5,11 +5,10 @@ const NotFound = () => {
   return (
     <div class="page-center">
       <h1>404 Page Error</h1>
-      <p>Page not found.</p>
-      <p>Navigate Back with the Home Button</p>
-      <Link className="homeError" to="/">
-        Home
-      </Link>
+      <p> This Page is not found.</p>
+      <p>Kindly initialize<Link className="homeError" to="/">
+      this</Link> to return to our home page</p>
+      
     </div>
   );
 };

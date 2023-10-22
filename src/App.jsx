@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Counter from "./Counter";
-import Home from "./Home";
+import Home from "./MainPage";
 import NotFound from "./NotFound";
 import Test from "./Test";
 
