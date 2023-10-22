@@ -8,14 +8,13 @@ const Counter = () => {
   return (
     <div className="App">
 
-      <div className="container1"> <input type="number"  />{count}</div>
+      <div className="container1">{count}</div>
       <div className="container2"><button onClick={increment}>+</button>
       <button onClick={decrement}>-</button>
       <button onClick={reset}>C</button> </div>
       
       <div>
-      <input
-        className="input" type="number"
+      <input type="number"
         placeholder="Enter a value"
         onChange={(e) => localSetValue(Number(e.target.value))}/>
       </div>
