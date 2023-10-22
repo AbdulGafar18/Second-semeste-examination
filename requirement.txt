@@ -1,8 +1,8 @@
 Installing react-router-dom using
 npm install react-router-dom
 
-**In order to run this project, there is a need to set up a React development environment and install the required dependencies,
- including React and React Router.
+In order to run this project, there is a need to set up a React development environment and install the required dependencies,
+ including React and React Router and React Router dom.
 
 About Project:
 This is a project Setup with a custom counter hook with increment, decrement, reset,
@@ -23,8 +23,20 @@ ErrorPage.jsx - The ErrorPage component is the 404 error page, page nit availabl
 ErrorBoundary.jsx - The ErrorBoundary component functionality is to catch and handle errors that may occur in the application. 
 It  also displays an error message when an error is caught. 
 
-useCounter.jsx - A custom hook that manages the counter state and provides functions for incrementing, decrementing, resetting,
+hook: create a hook folder to contsinn the useCount.js file  
+
+useCounter.js - A custom hook that manages the counter state and provides functions for incrementing, decrementing, resetting,
  and setting the counter value.
 
- App.css -
+ App.css - This component  contains the  designs of  all other components in  the project
+
+
+The app was built based on my little ability and is prone to errors.Will look forward  to corrections from the examiner.
+
+Thanks and God bless you
+
+Warm Regards,
+Odede AbdulGafar
+
+
 
