@@ -1,0 +1,107 @@
+body {
+  background-color: snow;
+}
+.home {
+  background-color:rgb(123, 130, 192);
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+.page-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.homeErrBound {
+  text-decoration: none;
+  font-size: 20px;
+}
+.homeError {
+  text-decoration: none;
+  font-size: 20px;
+}
+.homePage {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+li {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav {
+  text-decoration: none;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 120px;
+}
+.toCounter {
+  text-decoration: none;
+}
+.toPage {
+  text-decoration: none;
+}
+.toError {
+  text-decoration: none;
+}
+h1 {
+  margin-top: 5px;
+}
+.linkHome {
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-inline-start: -250px;
+}
+.input {
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  /* border-color: lightyellow; */
+  border: 3px solid;
+}
+.count-style {
+  font-size: 25px;
+  padding-top: -10px;
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.counter button {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 120px;
+  font-size: 20px;
+}
+
+.counter button:hover {
+  background-color: #ccc;
+}
+
+.counter button:active {
+  background-color:lightskyblue;
+}
