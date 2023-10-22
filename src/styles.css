@@ -3,21 +3,40 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
 
 body {
   background-color: rgba(223, 123, 9, 0.507);
   text-overflow: hidden;
 }
+
+
+.container1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  border-radius: 10px;
+  border: 1px solid #0000;
+  background-color: #82086c;
+}
+
+.App, .container1, .container2 { text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+margin: 0;}
+
 
 .home {
   background-color:#5e6b62;

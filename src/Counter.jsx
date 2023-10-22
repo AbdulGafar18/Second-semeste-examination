@@ -7,24 +7,24 @@ const Counter = () => {
 
   return (
     <div className="App">
-      <div className="counter-header">
-        <Link className="linkHome" to="/">
-          Home
-        </Link>
-        <p className="count-style">{count}</p>
-      </div>
-      <div className="button-flex">
-        <button onClick={increment}>+</button>
-        <button onClick={decrement}>-</button>
-        <button onClick={reset}>Reset</button>
-      </div>
+
+      <div className="container1">{count}</div>
+      <div className="container2"><button onClick={increment}>+</button>
+      <button onClick={decrement}>-</button>
+      <button onClick={reset}>C</button> </div>
+      
+      <div>
       <input
         className="input" type="number"
         placeholder="Enter a value"
-        onChange={(e) => localSetValue(Number(e.target.value))}
-      />
+        onChange={(e) => localSetValue(Number(e.target.value))}/>
+      </div>
+
+
+          <p className="linkHome"> Back to <Link to="/">Home</Link>page</p>
+
     </div>
   );
-};
+}
 
 export default Counter;
