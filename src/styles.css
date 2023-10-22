@@ -32,6 +32,8 @@ body {
   border-radius: 10px;
   border: 1px solid #0000;
   background-color: #82086c;
+  max-width: 300px;
+  text-overflow: hidden;
 }
 
 .App, .container1, .container2 { text-align: center;
@@ -44,8 +46,10 @@ margin: 0;}
 .home {
   background-color:#5e6b62;
   border-radius: 10px;
-  height: 400px;
-  width: 400px;
+  height: 15rem;
+  width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   align-items: center;
   
@@ -82,7 +86,7 @@ margin: 0;}
   font-family: sans-serif;
   text-align: center;
   width: 300px;
-  height: 200px;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
   background-color:#c276b4;
@@ -113,13 +117,13 @@ h1 {
   margin-inline-start: -250px;
 }
 
-.input {
-  height: 30px;
-  margin-top: 10px;
-  border-radius: 10px;
-  /* border-color: lightyellow; */
-  border: 3px solid;
-}
+input{ border-radius: 8px;
+  border: 1px solid #0000;
+  padding: 0.6em 1.2em;
+  font-size: 1.2em;
+  font-weight: 500;
+ }
+
 .count-style {
   font-size: 25px;
   padding-top: -10px;
