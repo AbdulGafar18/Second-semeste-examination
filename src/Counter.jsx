@@ -17,7 +17,6 @@ const Counter = () => {
       <input type="number"
         placeholder="Enter a value"
         onChange={(e) => localSetValue(Number(e.target.value))}/>
-        <button onClick={handleOnClick}>Set count value</button>
       </div>
 
 
