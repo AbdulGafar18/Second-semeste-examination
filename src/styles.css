@@ -33,7 +33,8 @@ body {
   font-weight: 700;
   border: 1px solid #0000;
   background-color: #f8ddf3;
-  text-overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
 }
 
 .App, .container1, .container2 { text-align: center;
