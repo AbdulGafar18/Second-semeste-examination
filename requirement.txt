@@ -1,3 +1,9 @@
+Introduction
+The Counter App is a simple mobile application developed using React Native.
+It allows users to increment or decrement a counter by pressing buttons on the screen.
+This technical write-up documents the implementation process of the Counter App, 
+covering various aspects from project setup to deployment.
+
 Installing react-router-dom using
 npm install react-router-dom
 

@@ -21,7 +21,7 @@
 
 
 body {
-  background-color: rgba(223, 123, 9, 0.507);
+  background-color: #102445;
   text-overflow: hidden;
 }
 
@@ -150,4 +150,9 @@ button {   background-color: #f9f9f9;
 
 .counter button:active {
   background-color:lightskyblue;
+}
+
+@media (min-width: 480px)  {
+  body { width: 90%;
+  padding: 20px;}
 }
